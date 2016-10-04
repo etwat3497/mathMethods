@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
+                      <Component id="titleLabel" min="-2" pref="231" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="absoluteValueLabel" alignment="0" min="-2" pref="139" max="-2" attributes="0"/>
+                          <Component id="radiansToDegreesLabel" pref="159" max="32767" attributes="0"/>
+                          <Component id="radiansToDegreesOutput" alignment="0" max="32767" attributes="0"/>
+                          <Component id="absoluteValueInput" max="32767" attributes="0"/>
+                          <Component id="absoluteValueOutput" alignment="0" max="32767" attributes="0"/>
+                          <Component id="radiansToDegreesInput" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="logarithmLabel" min="-2" pref="86" max="-2" attributes="0"/>
+                              <Component id="logarithmInput" max="32767" attributes="0"/>
+                              <Component id="logarithmOutput" alignment="0" max="32767" attributes="0"/>
+                              <Component id="sineLabel" pref="143" max="32767" attributes="0"/>
+                              <Component id="sineOutput" max="32767" attributes="0"/>
+                          </Group>
+                          <Component id="sineInput" min="-2" pref="151" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="errorLabel" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="squareRootOutput" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="squareRootLabel" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                                  <Component id="squareRootInput" alignment="0" pref="146" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="26" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+              <Component id="absoluteValueButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="logarithmButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="128" max="-2" attributes="0"/>
+              <Component id="squareRootButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+              <Component id="radiansToDegreesButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="133" max="-2" attributes="0"/>
+              <Component id="sineButton" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="titleLabel" min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="absoluteValueLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="logarithmLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="squareRootLabel" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="absoluteValueInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="logarithmInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="squareRootInput" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="squareRootOutput" pref="18" max="32767" attributes="0"/>
+                  <Component id="absoluteValueOutput" max="32767" attributes="0"/>
+                  <Component id="logarithmOutput" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="absoluteValueButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="logarithmButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="squareRootButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="radiansToDegreesLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sineLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="radiansToDegreesInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sineInput" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="errorLabel" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="radiansToDegreesOutput" pref="16" max="32767" attributes="0"/>
+                  <Component id="sineOutput" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="radiansToDegreesButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sineButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="titleLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="0"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Math Methods"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="absoluteValueLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Absolute Value "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="absoluteValueInput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="absoluteValueOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="logarithmLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Logarithm"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="logarithmInput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="logarithmOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="squareRootLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Square Root"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="squareRootInput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="squareRootOutput">
+    </Component>
+    <Component class="javax.swing.JButton" name="absoluteValueButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="absoluteValueButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="logarithmButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="logarithmButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="squareRootButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="squareRootButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="radiansToDegreesLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Radians to Degrees"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="radiansToDegreesInput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="radiansToDegreesOutput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="sineLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sine of an Angle in Degrees"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="sineInput">
+    </Component>
+    <Component class="javax.swing.JLabel" name="sineOutput">
+    </Component>
+    <Component class="javax.swing.JButton" name="radiansToDegreesButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="radiansToDegreesButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="sineButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sineButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="errorLabel">
+    </Component>
+  </SubComponents>
+</Form>
