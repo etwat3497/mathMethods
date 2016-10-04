@@ -14,8 +14,6 @@ import java.text.DecimalFormat;
  */
 
 
-//test
-
 /**
  * Created By Ethan Watt
  * On October 3, 2016
